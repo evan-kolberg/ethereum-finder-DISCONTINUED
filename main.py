@@ -3,7 +3,7 @@ from time import sleep
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-driver = webdriver.Chrome(executable_path=r'/Users/-----------/PycharmProjects/ethereum guesser/chromedriver', options=chrome_options)
+driver = webdriver.Chrome(executable_path=r'/Users/-----------/PycharmProjects/ethereum finder/chromedriver', options=chrome_options)
 website = "https://privatekeys.pw/keys/ethereum/1"
 text_file = open("private-keys.txt","a")
 
