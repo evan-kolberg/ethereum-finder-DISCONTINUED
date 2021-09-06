@@ -1,1 +1,2 @@
 # ethereum-private-key-checker
+Remember; It is nearly impossible to find a private key with eth in it. But why not take a shot at those odds? This program will go to a website and ramdomly get a page full of private keys. The website also tells you if there is a balance in them, and if there is, the program will put the page number in a .txt file. Feel free to let this run for as long as you want. And maybe it'll be your lucky day.
